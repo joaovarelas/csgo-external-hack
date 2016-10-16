@@ -1,0 +1,22 @@
+﻿Build started 16-10-2016 15:12:36.
+     1>Project "C:\Users\Administrator\Desktop\csgo-external-hack\t0pk3k\t0pk3k.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D T0PK3K_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(8): error C2664: 'strcmp' : cannot convert parameter 1 from 'WCHAR [260]' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>main.cpp(23): error C2664: 'strcmp' : cannot convert parameter 1 from 'WCHAR [256]' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>main.cpp(95): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char [24]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>main.cpp(100): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char [23]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>main.cpp(112): error C2065: 'null' : undeclared identifier
+     1>main.cpp(112): error C2182: 'trig' : illegal use of type 'void'
+     1>main.cpp(118): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char [10]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "C:\Users\Administrator\Desktop\csgo-external-hack\t0pk3k\t0pk3k.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.80
